@@ -4,9 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admission 68</title>
+    <style>
+        /* กำหนด CSS เพื่อให้ iframe ครอบคลุมพื้นที่ทั้งหมด */
+        body, html {
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* ปิดการเลื่อนหน้าเว็บ */
+            height: 100%;
+        }
+        iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none; /* ลบเส้นขอบของ iframe */
+            box-sizing: border-box; /* ควบคุมขนาดองค์ประกอบ */
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to Admission 68</h1>
-    <p>This is the admission page for the year 2068.</p>
+    <!-- ฝัง Google Apps Script Web App -->
+    <iframe src="https://script.google.com/macros/s/AKfycbyVbMzl5_HNS4chZ0nnayjIk2qIqILTij0Knz2yTy-yuHEiit41P-SeYeS9XwbX89cY/exec"></iframe>
+
+    <!-- ข้อความสำรองในกรณีที่ iframe ไม่สามารถโหลดได้ -->
+    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; font-family: Arial, sans-serif; color: #333;">
+        <h1>กำลังโหลด...</h1>
+        <p>หากหน้านี้ไม่แสดงผลภายในไม่กี่วินาที กรุณาลองใหม่อีกครั้งหรือติดต่อผู้ดูแลระบบ</p>
+    </div>
 </body>
 </html>
